@@ -1,0 +1,8 @@
+setting,model,MAE,RMSE,R2,MAE_smog_season,AQI_category_accuracy_%,MAE_improvement_vs_baseline_%
+Baseline,Persistence (tomorrow = today),13.01,18.22,0.79,21.55,68.38,0.0
+A. Observations only,Ridge regression,12.41,17.21,0.81,20.19,68.79,4.59
+A. Observations only,Random forest,11.73,16.72,0.82,19.5,70.84,9.84
+A. Observations only,Gradient boosting,12.27,17.08,0.81,19.69,68.58,5.66
+B. With weather forecast,Ridge regression,11.51,15.56,0.84,17.52,72.28,11.53
+B. With weather forecast,Random forest,10.86,15.2,0.85,17.25,72.28,16.54
+B. With weather forecast,Gradient boosting,10.92,14.76,0.86,16.58,73.51,16.03

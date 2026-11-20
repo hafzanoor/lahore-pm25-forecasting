@@ -1,0 +1,71 @@
+{
+  "days": 1549,
+  "period": [
+    "2022-08-05",
+    "2026-10-31"
+  ],
+  "pm25_mean": 69.9,
+  "pm25_max_daily": 279.7,
+  "pm25_max_daily_date": "2024-11-14",
+  "pct_days_above_who": 99.7,
+  "monthly_mean": {
+    "Jan": 140.1,
+    "Feb": 72.8,
+    "Mar": 47.7,
+    "Apr": 35.5,
+    "May": 45.8,
+    "Jun": 50.8,
+    "Jul": 55.3,
+    "Aug": 49.7,
+    "Sep": 53.7,
+    "Oct": 73.3,
+    "Nov": 103.1,
+    "Dec": 117.4
+  },
+  "worst_month_vs_best_month_ratio": 3.9,
+  "winter_aqi_days": {
+    "Oct 2022 \u2013 Jan 2023": {
+      "Good": 2,
+      "Moderate": 1,
+      "Unhealthy for sensitive groups": 6,
+      "Unhealthy": 74,
+      "Very unhealthy": 38,
+      "Hazardous": 2
+    },
+    "Oct 2023 \u2013 Jan 2024": {
+      "Good": 0,
+      "Moderate": 4,
+      "Unhealthy for sensitive groups": 13,
+      "Unhealthy": 71,
+      "Very unhealthy": 35,
+      "Hazardous": 0
+    },
+    "Oct 2024 \u2013 Jan 2025": {
+      "Good": 0,
+      "Moderate": 1,
+      "Unhealthy for sensitive groups": 12,
+      "Unhealthy": 70,
+      "Very unhealthy": 37,
+      "Hazardous": 3
+    },
+    "Oct 2025 \u2013 Jan 2026": {
+      "Good": 0,
+      "Moderate": 3,
+      "Unhealthy for sensitive groups": 12,
+      "Unhealthy": 66,
+      "Very unhealthy": 40,
+      "Hazardous": 2
+    }
+  },
+  "spearman_with_pm25": {
+    "temp": -0.465,
+    "wind_speed": -0.493,
+    "rh": 0.324,
+    "blh": -0.521
+  },
+  "autocorrelation": {
+    "lag_1": 0.891,
+    "lag_7": 0.6,
+    "lag_30": 0.372
+  }
+}
